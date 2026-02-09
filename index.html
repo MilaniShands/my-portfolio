@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Professional Portfolio</title>
+  <style>
+    /* CSS GOES HERE - This is where the magic happens! */
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      transition: 0.5s; /* Makes the color change smooth */
+    }
+    
+    .profile-card {
+      background: white;
+      width: 800px;
+      margin: 100px auto;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      background: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <h1>Hello, I'm [Milani]!</h1>
+    <p>Future Software Developer and Tech Innovator.</p>
+    
+    <h3>My Top Skills:</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li>🐍 Python Programming</li>
+      <li>💻 Web Design</li>
+      <li>⚡ Problem Solving</li>
+    </ul>
+
+    <button onclick="toggleMode()">Switch Theme</button>
+  </div>
+	<img arc = 'Bratz Board'>
+	<img arc = 'https://www.pinterest.com/pin/check-out-simmisinghcreatives-shuffles-passion-4-fashion-bratz-bratz4life-bratzy2k-y2kmoodboard-br-in-2025--26247610322833108/'>
+  <script>
+    // JAVASCRIPT GOES HERE - The "Brain" of the site
+    function toggleMode() {
+      let body = document.body;
+      if (body.style.backgroundColor === "black") {
+        body.style.backgroundColor = "#f0f0f0";
+        body.style.color = "black";
+      } else {
+        body.style.backgroundColor = "black";
+        body.style.color = "pink";
+      }
+    }
+  </script>
+
+</body>
+</html>
